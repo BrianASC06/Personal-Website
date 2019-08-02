@@ -1,0 +1,72 @@
+nav{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(53, 53, 156, 0.726);
+}
+body{
+    background-color: rgb(223, 216, 201);
+    margin: 0px;
+    padding: 0px;
+}
+.name{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    font-weight: bold;
+   
+}
+.navigation a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navigation li{
+    list-style: none;
+}
+
+img[alt*='Brian']{
+    position:absolute;
+    float: right;
+    widows: 25%;
+    margin: 10%;
+    right: 30px;
+    top: 1px;
+}
+
+article{
+    float: left;
+    margin-left: 10%;
+    width: 35%;
+    margin-top: 5%;
+}
+.button {
+    position: absolute;
+    background-color:cornflowerblue;
+	border-radius:30px;
+	color:white;
+	font-size:17px;
+	padding:14px 23px;
+	text-decoration:none;
+    left:120px;
+    top:360px;
+
+}
+.skills{
+    float: left;
+    clear: both;
+    width:40%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 150px;
+}
+h5{font-size: 25px;}
+
+
